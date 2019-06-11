@@ -1,0 +1,49 @@
+header{
+    color: white;
+   font-family: 'Merienda', cursive;
+    padding: 2px 6px;
+    background-image: url("stars in the night.jpg")
+}
+section{
+        background-color: black;
+        background: -webkit-linear-gradient(left, rgba(22,80,255,1) 15%,rgba(50,4,234,1) 53%,rgba(128,0,132,1) 88%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(22,80,255,1) 15%,rgba(50,4,234,1) 53%,rgba(128,0,132,1) 88%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        color: rgb(248, 139, 76);
+}
+.container{
+    display: flex;
+}
+.video{
+    background: -webkit-linear-gradient(left, rgba(160,4,67,1) 12%,rgba(160,4,67,1) 12%,rgba(137,27,123,1) 40%,rgba(31,18,170,1) 67%,rgba(91,3,109,1) 88%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(160,4,67,1) 12%,rgba(160,4,67,1) 12%,rgba(137,27,123,1) 40%,rgba(31,18,170,1) 67%,rgba(91,3,109,1) 88%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    padding: 20px;
+    text-align: center;
+    color: cyan;
+}
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+section {
+    flex-grow: 1;
+    padding: 15px;
+    width: 28%;
+    margin: 1%;
+    border: 1%;
+
+}
+footer{
+    
+    color: white;
+    background-image: url("bluewhitestars.jpg");
+    background-position-y: 75%;
+    padding: 15px;
+} 
+ a{ 
+     color: snow;
+}
+footer{
+    margin: 12px;
+    padding: 0%;
+    border: 50px;
+}
